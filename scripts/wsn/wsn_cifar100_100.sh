@@ -2,7 +2,7 @@ export PYTHONIOENCODING=utf-8
 export CUDA_VISIBLE_DEVICES="$1"
 
 
-python3 main_csnb_cifar100_100.py \
+python3 main_wsn_cifar100_100.py \
     --optim adam \
     --dataset cifar100_100 \
     --seed 1 \
