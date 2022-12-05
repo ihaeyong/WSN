@@ -1,4 +1,4 @@
-## Forget-free Continual Learning with Winning Subnetworks-ICML2022 
+## [Forget-free Continual Learning with Winning Subnetworks](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=v_tUj4oAAAAJ&citation_for_view=v_tUj4oAAAAJ:qxL8FJ1GzNcC)-ICML2022 
 -----------------------------------------------------------
 This is the official implementation of WSN in the paper in Pytorch.
 
