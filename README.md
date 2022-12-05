@@ -28,6 +28,11 @@ We provide several training examples with this repositories:
 scripts/wsn/wsn_pmnist.sh [GPU_ID] [SEED] [SPARSITY]
 ```
 
+- To train WSN on Cifar100-100 on GPU [GPU_ID] with seed number [SEED] and sparsity [SPARSITY], simply run the following
+```bash
+scripts/wsn/wsn_cifar100_100.sh [GPU_ID] [SEED] [SPARSITY]
+```
+
 ## References 
 ```
 Forget-free Continual Learning with Winning Subnetworks-ICML2022 
