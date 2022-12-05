@@ -10,7 +10,7 @@ This is the official implementation of WSN in the paper in Pytorch.
 - Permuted MNIST (available current version)
 - 5 Datasets 
 - Omniglot Rotation
-- CIFAR-100 Split
+- CIFAR-100 Split (available current version)
 - CIFAR-100 Superclass
 - TinyImageNet
 
