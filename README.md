@@ -25,12 +25,12 @@ We provide several training examples with this repositories:
 
 - To train WSN on Permuted MNIST on GPU [GPU_ID] with seed number [SEED] and sparsity [SPARSITY], simply run the following
 ```bash
-scripts/wsn/wsn_pmnist.sh [GPU_ID] [SEED] [SPARSITY]
+>> ./scripts/wsn/wsn_pmnist.sh [GPU_ID] [SEED] [SPARSITY]
 ```
 
 - To train WSN on Cifar100-100 on GPU [GPU_ID] with seed number [SEED] and sparsity [SPARSITY], simply run the following
 ```bash
-scripts/wsn/wsn_cifar100_100.sh [GPU_ID] [SEED] [SPARSITY]
+>> ./scripts/wsn/wsn_cifar100_100.sh [GPU_ID] [SEED] [SPARSITY]
 ```
 
 ## References 
