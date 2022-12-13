@@ -1,3 +1,5 @@
+# Authorized by Haeyong Kang.
+
 import torch
 import torch.nn as nn
 from copy import deepcopy
