@@ -1,5 +1,4 @@
 # Sample Usage: wsn_pmnist.sh [GPU_ID] [SEED_NUM] [SPARSITY]
-
 export PYTHONIOENCODING=utf-8
 export CUDA_VISIBLE_DEVICES="$1"
 
