@@ -1,3 +1,5 @@
+# Authorized by Haeyong Kang.
+
 import math
 import torch
 import torch.nn as nn
