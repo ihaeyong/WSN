@@ -1,3 +1,5 @@
+# Authorized by Haeyong Kang.
+
 import os, sys
 import numpy as np
 import torch
