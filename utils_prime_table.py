@@ -1,3 +1,6 @@
+# Authorized by Haeyong Kang.
+# To get prime mask tables (prime subnetworks)
+
 import os
 import numpy as np
 import math
