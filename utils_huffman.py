@@ -1,3 +1,5 @@
+# Authorized by Haeyong Kang.
+
 import sys
 import numpy as np
 from utils import safe_save
