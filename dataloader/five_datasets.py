@@ -1,4 +1,6 @@
 ### This file is modified from : https://github.com/joansj/hat/blob/master/src/dataloaders/mixture.py
+# Authorized by Haeyong Kang.
+
 import os,sys
 import os.path
 import numpy as np
