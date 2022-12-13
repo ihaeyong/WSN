@@ -37,6 +37,6 @@ scripts/wsn/wsn_cifar100_100.sh [GPU_ID] [SEED] [SPARSITY]
 ```
 Haeyong Kang, Rusty John Lloyd Mina, Sultan Rizky Hikmawan Madjid, 
 Jaehong Yoon, Mark Hasegawa-Johnson, Sung Ju Hwang, Chang D Yoo., 
-Forget-free Continual Learning with Winning Subnetworks-ICML2022 
+[Forget-free Continual Learning with Winning Subnetworks](https://scholar.google.com/citations?view_op=view_citation&hl=ja&user=v_tUj4oAAAAJ&citation_for_view=v_tUj4oAAAAJ:qxL8FJ1GzNcC)-ICML2022 
 ```
 
