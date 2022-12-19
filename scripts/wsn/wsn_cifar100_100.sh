@@ -11,7 +11,7 @@ python3 main_wsn_cifar100_100.py \
     --lr_min 1e-6 \
     --lr_patience 6 \
     --lr_factor 2 \
-    --n_epochs 50 \
+    --n_epochs 200 \
     --batch_size_train 64 \
     --batch_size_test 64 \
     --model alexnet \
