@@ -91,7 +91,6 @@ def test(args, model, device, x, y, criterion, task_id_nominal, curr_task_masks=
     total_num = 0
     correct = 0
     r=np.arange(x.size(0))
-    np.random.shuffle(r)
     r=torch.LongTensor(r).to(device)
 
     with torch.no_grad():
@@ -103,14 +102,7 @@ def test(args, model, device, x, y, criterion, task_id_nominal, curr_task_masks=
 
             data = x[b]
             data, target = data.to(device), y[b].to(device)
-            if comp_flag:
-                if args.encoding=='huffman':
-                    dec_task_mask, comp_ratio = comp_decomp_mask_huffman(curr_task_masks, task_id_nominal, device)
-                else:
-                    dec_task_mask, comp_ratio = comp_decomp_mask(curr_task_masks, task_id_nominal, device)
-                output = model(data, task_id_nominal, mask=dec_task_mask, mode=mode)
-            else:
-                output = model(data, task_id_nominal, mask=curr_task_masks, mode=mode)
+            output = model(data, task_id_nominal, mask=curr_task_masks, mode=mode)
             loss = criterion(output, target)
             pred = output.argmax(dim=1, keepdim=True)
 
