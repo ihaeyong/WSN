@@ -196,7 +196,7 @@ def main(args):
         initial_optimizer_state_dict = optimizer.state_dict()
 
         # reinitialized weight score
-        model.init_masks(task_id=k)
+        # model.init_masks(task_id=k)
 
         for epoch in range(1, args.n_epochs+1):
             # Train
