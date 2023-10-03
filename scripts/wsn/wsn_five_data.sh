@@ -6,7 +6,7 @@ python3 main_wsn_five_dataset_resnet18.py \
 		--optim adam \
 		--seed 1 \
 		--gpu $1 \
-		--lr 1e-1 \
+		--lr 1e-3 \
 		--lr_min 1e-5 \
 		--lr_patience 6 \
 		--lr_factor 2 \
