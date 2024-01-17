@@ -33,6 +33,11 @@ We provide several training examples with this repositories:
 >> ./scripts/wsn/wsn_cifar100_100.sh [GPU_ID] [SEED] [SPARSITY]
 ```
 
+- To train WSN + FSO on Cifar100-100 on GPU [GPU_ID] with seed number [SEED] and sparsity [SPARSITY], simply run the following
+```bash
+>> update soon
+```
+
 ## References 
 ```
 Haeyong Kang, Rusty John Lloyd Mina, Sultan Rizky Hikmawan Madjid, 
